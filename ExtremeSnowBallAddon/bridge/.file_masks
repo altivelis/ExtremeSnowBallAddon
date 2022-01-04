@@ -1,0 +1,212 @@
+{
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"82a010a8_5a22_4b66_a09b_dc402cb39f0e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"d2f26e33_489c_4936_9c44_5839e43ce90d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7508cf7d_857f_433d_b646_c1c0ee6e9fe5": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1012c0ab_f220_4461_a69e_e8bff7e1d475": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4e58e121_a927_490f_9d41_6da7ded6e3bb": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"48f3798f_0f3e_4b3c_b86c_c82a74d094d8": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7f8ee6e5_b808_445e_b528_5df9f90e2ac8": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"795514f6_db9f_46b0_b873_aeace7e1cfc4": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b156e15a_c3a0_490c_a9a6_b5c2d3b34946": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c4fcfcd4_fb01_494a_afd6_7acb88499ee4": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6f49b1f1_a40f_46c9_b123_b613847ca98b": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2ebe83af_8955_40bd_97b1_b929cd44b8c2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"df540849_ea78_4822_a5a1_ae5261f470b2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ab2ee209_ccca_45ea_a80b_f1211219162a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/bigsnowball.json": {
+		"data": {}
+	},
+	"RP/[R]/textures/item_texture.json": {
+		"data": {}
+	},
+	"RP/[R]/entity/bigsnowball.json": {
+		"data": {}
+	},
+	"RP/[R]/entity/testball.json": {
+		"data": {}
+	},
+	"BP/entities/snowball.json": {
+		"data": {}
+	},
+	"BP/items/fastsnowball.json": {
+		"data": {}
+	},
+	"BP/items/s_fireball.json": {
+		"data": {}
+	},
+	"BP/items/lightningball.json": {
+		"data": {}
+	},
+	"BP/items/bombball.json": {
+		"data": {}
+	},
+	"BP/items/blindball.json": {
+		"data": {}
+	},
+	"BP/items/slownessball.json": {
+		"data": {}
+	},
+	"BP/items/levitationball.json": {
+		"data": {}
+	},
+	"BP/items/damageball.json": {
+		"data": {}
+	},
+	"BP/items/invisibleball.json": {
+		"data": {}
+	},
+	"BP/items/updraft.json": {
+		"data": {}
+	},
+	"RP/[R]/particles/smoke_blue_inner_5.json": {
+		"data": {}
+	},
+	"BP/functions/tick.json": {
+		"data": {}
+	},
+	"BP/items/smokeball.json": {
+		"data": {}
+	},
+	"BP/items/oneshot.json": {
+		"data": {}
+	},
+	"BP/loot_tables/ender_crystal.json": {
+		"data": {}
+	},
+	"BP/entities/ender_crystal.json": {
+		"data": {}
+	},
+	"BP/items/timestopper.json": {
+		"data": {}
+	}
+}

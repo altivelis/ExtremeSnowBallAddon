@@ -1,0 +1,231 @@
+{
+	"file_path": "C:\\Users\\altivelis\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\EditItemTest\\entities\\ender_crystal.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "15bf54aa_b536_49f4_bb34_877dfc1e11c8",
+	"file_version": 10,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "minecraft:ender_crystal",
+							"is_spawnable": false,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:collision_box": {
+								"width": 0.98,
+								"height": 0.98
+							},
+							"minecraft:health": {
+								"value": 1,
+								"max": 1
+							},
+							"minecraft:physics": {},
+							"minecraft:pushable": {
+								"is_pushable": true,
+								"is_pushable_by_piston": true
+							},
+							"minecraft:conditional_bandwidth_optimization": {},
+							"minecraft:scale": {
+								"value": 0.5
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/ender_crystal.json"
+							}
+						}
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "minecraft:ender_crystal",
+							"is_spawnable": false,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:collision_box": {
+								"width": 0.98,
+								"height": 0.98
+							},
+							"minecraft:health": {
+								"value": 1,
+								"max": 1
+							},
+							"minecraft:physics": {},
+							"minecraft:pushable": {
+								"is_pushable": true,
+								"is_pushable_by_piston": true
+							},
+							"minecraft:conditional_bandwidth_optimization": {},
+							"minecraft:scale": {
+								"value": 0.5
+							},
+							"minecraft:loot": {
+								"table": "loot_tables/ender_crystal.json"
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:ender_crystal",
+								"is_spawnable": false,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:collision_box": {
+									"width": 0.98,
+									"height": 0.98
+								},
+								"minecraft:health": {
+									"value": 1,
+									"max": 1
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:conditional_bandwidth_optimization": {},
+								"minecraft:scale": {
+									"value": 0.5
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/ender_crystal.json"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "minecraft:ender_crystal",
+							"is_spawnable": false,
+							"is_summonable": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "minecraft:ender_crystal",
+								"is_spawnable": false,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:collision_box": {
+									"width": 0.98,
+									"height": 0.98
+								},
+								"minecraft:health": {
+									"value": 1,
+									"max": 1
+								},
+								"minecraft:physics": {},
+								"minecraft:pushable": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								},
+								"minecraft:conditional_bandwidth_optimization": {},
+								"minecraft:scale": {
+									"value": 0.5
+								},
+								"minecraft:loot": {
+									"table": "loot_tables/ender_crystal.json"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 0.98,
+									"height": 0.98
+								}
+							},
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 1,
+									"max": 1
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:pushable",
+								"is_minified": true,
+								"children": {
+									"is_pushable": true,
+									"is_pushable_by_piston": true
+								}
+							},
+							{
+								"key": "minecraft:conditional_bandwidth_optimization",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:scale",
+								"is_minified": true,
+								"children": {
+									"value": 0.5
+								}
+							},
+							{
+								"open": {
+									"minecraft:collision_box": {
+										"width": 0.98,
+										"height": 0.98
+									},
+									"minecraft:health": {
+										"value": 1,
+										"max": 1
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": true,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:conditional_bandwidth_optimization": {},
+									"minecraft:scale": {
+										"value": 0.5
+									},
+									"minecraft:loot": {
+										"table": "loot_tables/ender_crystal.json"
+									}
+								},
+								"key": "minecraft:loot",
+								"is_minified": true,
+								"children": {
+									"table": "loot_tables/ender_crystal.json"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

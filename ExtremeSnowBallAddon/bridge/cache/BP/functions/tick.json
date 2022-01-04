@@ -1,0 +1,23 @@
+{
+	"file_path": "C:\\Users\\altivelis\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\EditItemTest\\functions\\tick.json",
+	"file_type": "function_tick",
+	"format_version": 1,
+	"file_uuid": "f93a7527_3a1b_4980_8007_1a51f45380f2",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"values": [
+						"always"
+					]
+				},
+				"key": "values",
+				"is_minified": true,
+				"children": [
+					"always"
+				]
+			}
+		]
+	}
+}

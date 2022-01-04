@@ -1,0 +1,231 @@
+//bridge-file-version: #4
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "altivelis:bigshot",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"味方もろとも吹き飛ばせ！"
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "altivelis:fastshot",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 16
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"とても速く飛ぶ玉"
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "altivelis:fireball",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 8
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"燃える玉"
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "altivelis:lightningball",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 4
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"雷落ちる玉"
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "altivelis:bombball",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 4
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"爆発する玉"
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "altivelis:blindball",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 4
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"盲目状態にする玉"
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "altivelis:slownessball",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 8
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"鈍足状態にする玉"
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "altivelis:levitationball",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 4
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"浮遊状態にする玉"
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "altivelis:damageball",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 6
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"ダメージの残留ポーションを作りだす"
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "altivelis:invisibleball",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 16
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"見えない玉"
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "altivelis:updraft",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"高く浮き上がる"
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "altivelis:smokeball",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 4
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"煙幕を作り出す"
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "altivelis:oneshot",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+							"count": 1
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								"攻撃力100の速い玉"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

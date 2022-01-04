@@ -1,0 +1,77 @@
+//bridge-file-version: #6
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"bigshot": {
+			"textures": [
+				"textures/alt_snowball/bigshot"
+			]
+		},
+		"fastshot": {
+			"textures": [
+				"textures/alt_snowball/ghast_tear"
+			]
+		},
+		"s_fireball": {
+			"textures": [
+				"textures/alt_snowball/fireball"
+			]
+		},
+		"lightningball": {
+			"textures": [
+				"textures/alt_snowball/nether_star"
+			]
+		},
+		"bombball": {
+			"textures": [
+				"textures/alt_snowball/magma_cream"
+			]
+		},
+		"blindball": {
+			"textures": [
+				"textures/alt_snowball/ender_eye"
+			]
+		},
+		"slownessball": {
+			"textures": [
+				"textures/alt_snowball/slimeball"
+			]
+		},
+		"levitationball": {
+			"textures": [
+				"textures/alt_snowball/heartofthesea_closed"
+			]
+		},
+		"damageball": {
+			"textures": [
+				"textures/alt_snowball/dragon_fireball"
+			]
+		},
+		"invisibleball": {
+			"textures": [
+				"textures/alt_snowball/ender_pearl"
+			]
+		},
+		"snowball": {
+			"textures": [
+				"textures/alt_snowball/snowball"
+			]
+		},
+		"smoke": {
+			"textures": [
+				"textures/alt_snowball/smoke"
+			]
+		},
+		"oneshot": {
+			"textures": [
+				"textures/alt_snowball/oneshot"
+			]
+		},
+		"multi3": {
+			"textures": [
+				"textures/alt_snowball/multishot3"
+			]
+		}
+	}
+}

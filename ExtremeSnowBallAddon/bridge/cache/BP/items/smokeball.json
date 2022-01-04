@@ -1,0 +1,307 @@
+{
+	"file_path": "C:\\Users\\altivelis\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\EditItemTest\\items\\smokeball.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "2ebe83af_8955_40bd_97b1_b929cd44b8c2",
+	"file_version": 22,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "altivelis:smokeball",
+							"category": "construction"
+						},
+						"components": {
+							"minecraft:display_name": {
+								"value": "§l§o§e<煙幕弾>"
+							},
+							"minecraft:icon": {
+								"texture": "smoke"
+							},
+							"minecraft:max_stack_size": 4,
+							"minecraft:throwable": {
+								"do_swing_animation": true
+							},
+							"minecraft:projectile": {
+								"projectile_entity": "minecraft:snowball"
+							},
+							"minecraft:foil": true,
+							"minecraft:cooldown": {
+								"category": "smokeball",
+								"duration": 3
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "altivelis:smokeball",
+							"category": "construction"
+						},
+						"components": {
+							"minecraft:display_name": {
+								"value": "§l§o§e<煙幕弾>"
+							},
+							"minecraft:icon": {
+								"texture": "smoke"
+							},
+							"minecraft:max_stack_size": 4,
+							"minecraft:throwable": {
+								"do_swing_animation": true
+							},
+							"minecraft:projectile": {
+								"projectile_entity": "minecraft:snowball"
+							},
+							"minecraft:foil": true,
+							"minecraft:cooldown": {
+								"category": "smokeball",
+								"duration": 3
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:smokeball",
+								"category": "construction"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "§l§o§e<煙幕弾>"
+								},
+								"minecraft:icon": {
+									"texture": "smoke"
+								},
+								"minecraft:max_stack_size": 4,
+								"minecraft:throwable": {
+									"do_swing_animation": true
+								},
+								"minecraft:projectile": {
+									"projectile_entity": "minecraft:snowball"
+								},
+								"minecraft:foil": true,
+								"minecraft:cooldown": {
+									"category": "smokeball",
+									"duration": 3
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "altivelis:smokeball",
+							"category": "construction"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:smokeball",
+								"category": "construction"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "§l§o§e<煙幕弾>"
+								},
+								"minecraft:icon": {
+									"texture": "smoke"
+								},
+								"minecraft:max_stack_size": 4,
+								"minecraft:throwable": {
+									"do_swing_animation": true
+								},
+								"minecraft:projectile": {
+									"projectile_entity": "minecraft:snowball"
+								},
+								"minecraft:foil": true,
+								"minecraft:cooldown": {
+									"category": "smokeball",
+									"duration": 3
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§e<煙幕弾>"
+									},
+									"minecraft:icon": {
+										"texture": "smoke"
+									},
+									"minecraft:max_stack_size": 4,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "smokeball",
+										"duration": 3
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "§l§o§e<煙幕弾>"
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§e<煙幕弾>"
+									},
+									"minecraft:icon": {
+										"texture": "smoke"
+									},
+									"minecraft:max_stack_size": 4,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "smokeball",
+										"duration": 3
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "smoke"
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§e<煙幕弾>"
+									},
+									"minecraft:icon": {
+										"texture": "smoke"
+									},
+									"minecraft:max_stack_size": 4,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "smokeball",
+										"duration": 3
+									}
+								},
+								"data": "4",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§e<煙幕弾>"
+									},
+									"minecraft:icon": {
+										"texture": "smoke"
+									},
+									"minecraft:max_stack_size": 4,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "smokeball",
+										"duration": 3
+									}
+								},
+								"key": "minecraft:throwable",
+								"is_minified": true,
+								"children": {
+									"do_swing_animation": true
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§e<煙幕弾>"
+									},
+									"minecraft:icon": {
+										"texture": "smoke"
+									},
+									"minecraft:max_stack_size": 4,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "smokeball",
+										"duration": 3
+									}
+								},
+								"key": "minecraft:projectile",
+								"is_minified": true,
+								"children": {
+									"projectile_entity": "minecraft:snowball"
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:foil"
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§e<煙幕弾>"
+									},
+									"minecraft:icon": {
+										"texture": "smoke"
+									},
+									"minecraft:max_stack_size": 4,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "smokeball",
+										"duration": 3
+									}
+								},
+								"key": "minecraft:cooldown",
+								"is_minified": true,
+								"children": {
+									"category": "smokeball",
+									"duration": 3
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

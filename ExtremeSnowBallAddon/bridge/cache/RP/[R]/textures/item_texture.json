@@ -1,0 +1,1346 @@
+{
+	"file_path": "C:\\Users\\altivelis\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\EditItemTest[R]\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "71f33ee8_4f0a_4c8d_8120_5946a5c24b1b",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"bigshot": {
+							"textures": [
+								"textures/alt_snowball/bigshot"
+							]
+						},
+						"fastshot": {
+							"textures": [
+								"textures/alt_snowball/ghast_tear"
+							]
+						},
+						"s_fireball": {
+							"textures": [
+								"textures/alt_snowball/fireball"
+							]
+						},
+						"lightningball": {
+							"textures": [
+								"textures/alt_snowball/nether_star"
+							]
+						},
+						"bombball": {
+							"textures": [
+								"textures/alt_snowball/magma_cream"
+							]
+						},
+						"blindball": {
+							"textures": [
+								"textures/alt_snowball/ender_eye"
+							]
+						},
+						"slownessball": {
+							"textures": [
+								"textures/alt_snowball/slimeball"
+							]
+						},
+						"levitationball": {
+							"textures": [
+								"textures/alt_snowball/heartofthesea_closed"
+							]
+						},
+						"damageball": {
+							"textures": [
+								"textures/alt_snowball/dragon_fireball"
+							]
+						},
+						"invisibleball": {
+							"textures": [
+								"textures/alt_snowball/ender_pearl"
+							]
+						},
+						"snowball": {
+							"textures": [
+								"textures/alt_snowball/snowball"
+							]
+						},
+						"smoke": {
+							"textures": [
+								"textures/alt_snowball/smoke"
+							]
+						},
+						"oneshot": {
+							"textures": [
+								"textures/alt_snowball/oneshot"
+							]
+						},
+						"multi3": {
+							"textures": [
+								"textures/alt_snowball/multishot3"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						},
+						"key": "bigshot",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/bigshot"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/bigshot"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						},
+						"key": "fastshot",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/ghast_tear"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						},
+						"key": "s_fireball",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/fireball"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/fireball"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						},
+						"key": "lightningball",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/nether_star"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/nether_star"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						},
+						"key": "bombball",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/magma_cream"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/magma_cream"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						},
+						"key": "blindball",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/ender_eye"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/ender_eye"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						},
+						"key": "slownessball",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/slimeball"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/slimeball"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						},
+						"key": "levitationball",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/heartofthesea_closed"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						},
+						"key": "damageball",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/dragon_fireball"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						},
+						"key": "invisibleball",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/ender_pearl"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						},
+						"key": "snowball",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/snowball"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/snowball"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						},
+						"key": "smoke",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/smoke"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/smoke"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						},
+						"key": "oneshot",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/oneshot"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/oneshot"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						},
+						"key": "multi3",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/multishot3"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

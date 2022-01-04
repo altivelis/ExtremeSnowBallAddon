@@ -1,0 +1,194 @@
+{
+	"entity": {
+		"BP/entities/snowball.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:explode",
+				"minecraft:explode_big",
+				"minecraft:lightning",
+				"minecraft:remove_lightning",
+				"minecraft:effect_explode",
+				"levitation",
+				"slowness",
+				"blind",
+				"smoke"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:snowball"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_components": [],
+			"custom_commands": []
+		},
+		"BP/entities/ender_crystal.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:ender_crystal"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"item": {
+		"BP/items/bigsnowball.json": {
+			"identifiers": [
+				"altivelis:bigshot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/fastsnowball.json": {
+			"identifiers": [
+				"altivelis:fastshot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/s_fireball.json": {
+			"identifiers": [
+				"altivelis:fireball"
+			],
+			"custom_commands": []
+		},
+		"BP/items/lightningball.json": {
+			"identifiers": [
+				"altivelis:lightningball"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bombball.json": {
+			"identifiers": [
+				"altivelis:bombball"
+			],
+			"custom_commands": []
+		},
+		"BP/items/blindball.json": {
+			"identifiers": [
+				"altivelis:blindball"
+			],
+			"custom_commands": []
+		},
+		"BP/items/slownessball.json": {
+			"identifiers": [
+				"altivelis:slownessball"
+			],
+			"custom_commands": []
+		},
+		"BP/items/levitationball.json": {
+			"identifiers": [
+				"altivelis:levitationball"
+			],
+			"custom_commands": []
+		},
+		"BP/items/damageball.json": {
+			"identifiers": [
+				"altivelis:damageball"
+			],
+			"custom_commands": []
+		},
+		"BP/items/invisibleball.json": {
+			"identifiers": [
+				"altivelis:invisibleball"
+			],
+			"custom_commands": []
+		},
+		"BP/items/updraft.json": {
+			"identifiers": [
+				"altivelis:timestopper"
+			],
+			"custom_commands": []
+		},
+		"BP/items/smokeball.json": {
+			"identifiers": [
+				"altivelis:smokeball"
+			],
+			"custom_commands": []
+		},
+		"BP/items/oneshot.json": {
+			"identifiers": [
+				"altivelis:oneshot"
+			],
+			"custom_commands": []
+		},
+		"BP/items/timestopper.json": {
+			"identifiers": [
+				"altivelis:timestopper"
+			],
+			"custom_commands": []
+		}
+	},
+	"client_entity": {
+		"RP/[R]/entity/bigsnowball.json": {
+			"identifiers": [
+				"altivelis:bigsnowball"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"flying"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/[R]/entity/testball.json": {
+			"identifiers": [
+				"altivelis:testball"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"flying"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"function": {
+		"7a829451_3841_4e30_a1c3_5209c27e023a": {},
+		"6f49b1f1_a40f_46c9_b123_b613847ca98b": {},
+		"7f8ee6e5_b808_445e_b528_5df9f90e2ac8": {},
+		"BP/functions/always.mcfunction": {
+			"custom_commands": [],
+			"scoreboards": [
+				"smoketime",
+				"snowballtime"
+			]
+		},
+		"15bf54aa_b536_49f4_bb34_877dfc1e11c8": {},
+		"ab2ee209_ccca_45ea_a80b_f1211219162a": {
+			"tags": [
+				"stop"
+			]
+		}
+	},
+	"particle": {
+		"RP/[R]/particles/smoke_blue_inner_5.json": {
+			"ids": [
+				"altivelis:smoke_blue_inner_5"
+			]
+		}
+	}
+}

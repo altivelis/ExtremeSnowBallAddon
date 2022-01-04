@@ -1,0 +1,845 @@
+//bridge-file-version: #42
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:snowball",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.25,
+				"height": 0.25
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+						"damage": 2,
+						"knockback": true
+					},
+					"remove_on_hit": {},
+					"particle_on_hit": {
+						"particle_type": "snowballpoof",
+						"num_particles": 6,
+						"on_entity_hit": true,
+						"on_other_hit": true
+					}
+				},
+				"anchor": 1,
+				"power": 1.5,
+				"gravity": 0.03,
+				"angle_offset": 0,
+				"offset": [
+					0,
+					-0.1,
+					0,
+					0,
+					-0.1,
+					0
+				]
+			},
+			"minecraft:physics": {},
+			"minecraft:conditional_bandwidth_optimization": {
+				"default_values": {
+					"max_optimized_distance": 100,
+					"max_dropped_ticks": 5,
+					"use_motion_prediction_hints": true
+				}
+			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			}
+		},
+		"component_groups": {
+			"minecraft:default": {
+				"minecraft:collision_box": {
+					"width": 0.25,
+					"height": 0.25
+				},
+				"minecraft:projectile": {
+					"on_hit": {
+						"impact_damage": {
+							"damage": 2,
+							"knockback": true
+						},
+						"remove_on_hit": {},
+						"particle_on_hit": {
+							"particle_type": "snowballpoof",
+							"num_particles": 6,
+							"on_entity_hit": true,
+							"on_other_hit": true
+						}
+					},
+					"anchor": 1,
+					"power": 1.5,
+					"gravity": 0.03,
+					"angle_offset": 0,
+					"offset": [
+						0,
+						-0.1,
+						0
+					]
+				},
+				"minecraft:physics": {}
+			},
+			"minecraft:exploding": {
+				"minecraft:explode": {
+					"fuse_length": 0,
+					"fuse_lit": true,
+					"power": 2,
+					"causes_fire": true,
+					"destroy_affected_by_griefing": true,
+					"fire_affected_by_griefing": true
+				}
+			},
+			"minecraft:exploding_big": {
+				"minecraft:explode": {
+					"fuse_length": 0,
+					"fuse_lit": true,
+					"power": 4,
+					"causes_fire": true,
+					"destroy_affected_by_griefing": true,
+					"fire_affected_by_griefing": true
+				}
+			},
+			"minecraft:bigshot": {
+				"minecraft:scale": {
+					"value": 5
+				},
+				"minecraft:collision_box": {
+					"width": 1,
+					"height": 1
+				},
+				"minecraft:physics": {
+					"has_collision": false
+				},
+				"minecraft:pushable": {
+					"is_pushable": false,
+					"is_pushable_by_piston": false
+				},
+				"minecraft:projectile": {
+					"on_hit": {
+						"definition_event": {
+							"event_trigger": {
+								"event": "minecraft:explode_big",
+								"target": "self"
+							},
+							"affect_projectile": true
+						}
+					},
+					"anchor": 1,
+					"power": 0.8,
+					"gravity": 0,
+					"angle_offset": 0,
+					"offset": [
+						0,
+						-0.1,
+						0
+					]
+				}
+			},
+			"minecraft:fastshot": {
+				"minecraft:projectile": {
+					"on_hit": {
+						"impact_damage": {
+							"damage": 2,
+							"knockback": true
+						},
+						"remove_on_hit": {},
+						"particle_on_hit": {
+							"particle_type": "snowballpoof",
+							"num_particles": 6,
+							"on_entity_hit": true,
+							"on_other_hit": true
+						}
+					},
+					"anchor": 1,
+					"power": 5,
+					"gravity": 0.03,
+					"angle_offset": 0,
+					"offset": [
+						0,
+						-0.1,
+						0
+					]
+				}
+			},
+			"minecraft:fireball": {
+				"minecraft:projectile": {
+					"on_hit": {
+						"impact_damage": {
+							"damage": 2,
+							"knockback": true,
+							"catch_fire": true
+						},
+						"remove_on_hit": {},
+						"particle_on_hit": {
+							"particle_type": "snowballpoof",
+							"num_particles": 6,
+							"on_entity_hit": true,
+							"on_other_hit": true
+						},
+						"catch_fire": {
+							"fire_affected_by_griefing": true
+						}
+					},
+					"anchor": 1,
+					"power": 1.5,
+					"gravity": 0.03,
+					"angle_offset": 0,
+					"offset": [
+						0,
+						-0.1,
+						0
+					],
+					"catch_fire": true
+				},
+				"minecraft:burns_in_daylight": {}
+			},
+			"minecraft:lightning_bolt": {
+				"minecraft:projectile": {
+					"on_hit": {
+						"definition_event": {
+							"affect_projectile": true,
+							"event_trigger": {
+								"event": "minecraft:lightning",
+								"target": "self"
+							}
+						}
+					},
+					"anchor": 1,
+					"power": 1.5,
+					"gravity": 0.03,
+					"angle_offset": 0,
+					"offset": [
+						0,
+						-0.1,
+						0
+					]
+				}
+			},
+			"minecraft:bomb": {
+				"minecraft:projectile": {
+					"on_hit": {
+						"definition_event": {
+							"event_trigger": {
+								"event": "minecraft:explode",
+								"target": "self"
+							},
+							"affect_projectile": true
+						}
+					},
+					"anchor": 1,
+					"power": 1.5,
+					"gravity": 0.03,
+					"angle_offset": 0,
+					"offset": [
+						0,
+						-0.1,
+						0
+					]
+				}
+			},
+			"minecraft:blind": {
+				"minecraft:projectile": {
+					"on_hit": {
+						"impact_damage": {
+							"damage": 2,
+							"knockback": true
+						},
+						"particle_on_hit": {
+							"num_particles": 1,
+							"on_entity_hit": true,
+							"on_other_hit": true,
+							"particle_type": "largeexplode"
+						},
+						"definition_event": {
+							"affect_projectile": true,
+							"event_trigger": {
+								"event": "blind",
+								"target": "self"
+							}
+						}
+					},
+					"anchor": 1,
+					"power": 1.5,
+					"gravity": 0.03,
+					"angle_offset": 0,
+					"offset": [
+						0,
+						-0.1,
+						0
+					]
+				}
+			},
+			"minecraft:slow": {
+				"minecraft:projectile": {
+					"on_hit": {
+						"impact_damage": {
+							"damage": 2,
+							"knockback": true
+						},
+						"particle_on_hit": {
+							"num_particles": 1,
+							"on_entity_hit": true,
+							"on_other_hit": true,
+							"particle_type": "largeexplode"
+						},
+						"definition_event": {
+							"affect_projectile": true,
+							"event_trigger": {
+								"event": "slowness",
+								"target": "self"
+							}
+						}
+					},
+					"anchor": 1,
+					"power": 1.5,
+					"gravity": 0.03,
+					"angle_offset": 0,
+					"offset": [
+						0,
+						-0.1,
+						0
+					]
+				}
+			},
+			"minecraft:levitation": {
+				"minecraft:projectile": {
+					"on_hit": {
+						"impact_damage": {
+							"damage": 2,
+							"knockback": true
+						},
+						"particle_on_hit": {
+							"particle_type": "largeexplode",
+							"num_particles": 1,
+							"on_entity_hit": true,
+							"on_other_hit": true
+						},
+						"definition_event": {
+							"affect_projectile": true,
+							"event_trigger": {
+								"event": "levitation",
+								"target": "self"
+							}
+						}
+					},
+					"anchor": 1,
+					"power": 1.5,
+					"gravity": 0.03,
+					"angle_offset": 0,
+					"offset": [
+						0,
+						-0.1,
+						0
+					]
+				}
+			},
+			"minecraft:splash_damage": {
+				"minecraft:projectile": {
+					"on_hit": {
+						"impact_damage": {
+							"damage": 2,
+							"knockback": true
+						},
+						"remove_on_hit": {},
+						"particle_on_hit": {
+							"particle_type": "snowballpoof",
+							"num_particles": 6,
+							"on_entity_hit": true,
+							"on_other_hit": true
+						},
+						"spawn_aoe_cloud": {
+							"radius": 3,
+							"radius_on_use": 0,
+							"potion": 23,
+							"particle": "dragonbreath",
+							"duration": 20,
+							"color": [
+								220,
+								0,
+								239
+							],
+							"affect_owner": true,
+							"reapplication_delay": 20
+						}
+					},
+					"anchor": 1,
+					"power": 1.5,
+					"gravity": 0.03,
+					"angle_offset": 0,
+					"offset": [
+						0,
+						-0.1,
+						0
+					],
+					"hit_sound": "glass"
+				}
+			},
+			"minecraft:invisible": {
+				"minecraft:scale": {
+					"value": 0
+				}
+			},
+			"minecraft:do_lightning": {
+				"minecraft:spawn_entity": {
+					"entities": [
+						{
+							"min_wait_time": 0,
+							"max_wait_time": 0,
+							"num_to_spawn": 1,
+							"single_use": true,
+							"spawn_entity": "minecraft:lightning_bolt"
+						}
+					]
+				},
+				"minecraft:projectile": {
+					"on_hit": {
+						"definition_event": {
+							"affect_projectile": true,
+							"event_trigger": {
+								"event": "minecraft:remove_lightning",
+								"target": "self"
+							}
+						}
+					},
+					"anchor": 1,
+					"power": 1.5,
+					"gravity": 0.03,
+					"angle_offset": 0,
+					"offset": [
+						0,
+						-0.1,
+						0
+					]
+				}
+			},
+			"minecraft:effect_exploding": {
+				"minecraft:explode": {
+					"fuse_length": 0,
+					"fuse_lit": true,
+					"power": 0.01,
+					"causes_fire": true,
+					"destroy_affected_by_griefing": true,
+					"fire_affected_by_griefing": true
+				}
+			},
+			"minecraft:smoke": {
+				"minecraft:projectile": {
+					"on_hit": {
+						"particle_on_hit": {
+							"particle_type": "snowballpoof",
+							"num_particles": 6,
+							"on_entity_hit": true,
+							"on_other_hit": true
+						},
+						"definition_event": {
+							"affect_projectile": true,
+							"event_trigger": {
+								"event": "smoke",
+								"target": "self"
+							}
+						}
+					},
+					"anchor": 1,
+					"power": 1.5,
+					"gravity": 0.03,
+					"angle_offset": 0,
+					"offset": [
+						0,
+						-0.1,
+						0
+					]
+				}
+			},
+			"minecraft:oneshot": {
+				"minecraft:projectile": {
+					"on_hit": {
+						"impact_damage": {
+							"damage": 100,
+							"knockback": true
+						},
+						"remove_on_hit": {},
+						"particle_on_hit": {
+							"particle_type": "snowballpoof",
+							"num_particles": 6,
+							"on_entity_hit": true,
+							"on_other_hit": true
+						}
+					},
+					"anchor": 1,
+					"power": 5,
+					"gravity": 0.03,
+					"angle_offset": 0,
+					"offset": [
+						0,
+						-0.1,
+						0
+					]
+				}
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "has_equipment",
+							"domain": "hand",
+							"subject": "other",
+							"operator": "==",
+							"value": "altivelis:bigshot"
+						},
+						"add": {
+							"component_groups": [
+								"minecraft:bigshot"
+							]
+						},
+						"run_command": {
+							"command": [
+								"tag @s add bigshot",
+								"playsound mob.wither.shoot @a ~~~ 1 1 0"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_equipment",
+							"subject": "other",
+							"operator": "==",
+							"value": "altivelis:fastshot",
+							"domain": "hand"
+						},
+						"add": {
+							"component_groups": [
+								"minecraft:fastshot"
+							]
+						},
+						"run_command": {
+							"command": [
+								"tag @s add fastshot",
+								"playsound mob.snowgolem.shoot @a ~~~ 1 1 0"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_equipment",
+							"subject": "other",
+							"operator": "==",
+							"value": "altivelis:fireball",
+							"domain": "hand"
+						},
+						"add": {
+							"component_groups": [
+								"minecraft:fireball"
+							]
+						},
+						"run_command": {
+							"command": [
+								"tag @s add fireball",
+								"playsound mob.blaze.shoot @a ~~~ 1 1 0"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_equipment",
+							"subject": "other",
+							"operator": "==",
+							"value": "altivelis:lightningball",
+							"domain": "hand"
+						},
+						"add": {
+							"component_groups": [
+								"minecraft:lightning_bolt"
+							]
+						},
+						"run_command": {
+							"command": [
+								"tag @s add lightningball",
+								"playsound mob.shulker.shoot @a ~~~ 1 1 0"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_equipment",
+							"subject": "other",
+							"operator": "==",
+							"value": "altivelis:bombball",
+							"domain": "hand"
+						},
+						"add": {
+							"component_groups": [
+								"minecraft:bomb"
+							]
+						},
+						"run_command": {
+							"command": [
+								"tag @s add bombball",
+								"playsound item.trident.throw @a ~~~ 1 1 0"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_equipment",
+							"subject": "other",
+							"operator": "==",
+							"value": "altivelis:blindball",
+							"domain": "hand"
+						},
+						"add": {
+							"component_groups": [
+								"minecraft:blind"
+							]
+						},
+						"run_command": {
+							"command": [
+								"tag @s add blindball",
+								"playsound block.end_portal_frame.fill @a ~~~ 1 1 0"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_equipment",
+							"subject": "other",
+							"operator": "==",
+							"value": "altivelis:slownessball",
+							"domain": "hand"
+						},
+						"add": {
+							"component_groups": [
+								"minecraft:slow"
+							]
+						},
+						"run_command": {
+							"command": [
+								"tag @s add slownessball",
+								"playsound mob.slime.small @a ~~~ 1 1 0"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_equipment",
+							"subject": "other",
+							"operator": "==",
+							"value": "altivelis:levitationball",
+							"domain": "hand"
+						},
+						"add": {
+							"component_groups": [
+								"minecraft:levitation"
+							]
+						},
+						"run_command": {
+							"command": [
+								"tag @s add levitationball",
+								"playsound bottle.dragonbreath @a ~~~ 1 1 0"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_equipment",
+							"subject": "other",
+							"operator": "==",
+							"value": "altivelis:damageball",
+							"domain": "hand"
+						},
+						"add": {
+							"component_groups": [
+								"minecraft:splash_damage"
+							]
+						},
+						"run_command": {
+							"command": [
+								"tag @s add damageball",
+								"playsound mob.ghast.fireball @a ~~~ 1 1 0"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_equipment",
+							"subject": "other",
+							"operator": "==",
+							"value": "altivelis:invisibleball",
+							"domain": "hand"
+						},
+						"add": {
+							"component_groups": [
+								"minecraft:invisible"
+							]
+						},
+						"run_command": {
+							"command": [
+								"tag @s add invisibleball",
+								"playsound bubble.pop @a ~~~ 1 1 0"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_equipment",
+							"subject": "other",
+							"operator": "==",
+							"value": "altivelis:smokeball",
+							"domain": "hand"
+						},
+						"add": {
+							"component_groups": [
+								"minecraft:smoke"
+							]
+						},
+						"run_command": {
+							"command": [
+								"tag @s add smokeball",
+								"playsound mob.creeper.say @a ~~~ 1 1 0"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_equipment",
+							"subject": "other",
+							"operator": "==",
+							"value": "altivelis:oneshot",
+							"domain": "hand"
+						},
+						"add": {
+							"component_groups": [
+								"minecraft:oneshot"
+							]
+						},
+						"run_command": {
+							"command": [
+								"tag @s add oneshot",
+								"playsound random.totem @a ~~~ 1 1 0"
+							]
+						}
+					}
+				]
+			},
+			"minecraft:explode": {
+				"add": {
+					"component_groups": [
+						"minecraft:exploding"
+					]
+				}
+			},
+			"minecraft:explode_big": {
+				"add": {
+					"component_groups": [
+						"minecraft:exploding_big"
+					]
+				}
+			},
+			"minecraft:lightning": {
+				"add": {
+					"component_groups": [
+						"minecraft:do_lightning"
+					]
+				}
+			},
+			"minecraft:remove_lightning": {
+				"remove": {
+					"component_groups": [
+						"minecraft:do_lightning"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:default"
+					]
+				}
+			},
+			"minecraft:effect_explode": {
+				"add": {
+					"component_groups": [
+						"minecraft:effect_exploding"
+					]
+				}
+			},
+			"levitation": {
+				"remove": {
+					"component_groups": [
+						"minecraft:levitation"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:default"
+					]
+				},
+				"run_command": {
+					"command": [
+						"effect @e[r=4] levitation 2 0 false",
+						"playsound mob.witch.hurt @a ~~~ 1 1 0"
+					]
+				}
+			},
+			"slowness": {
+				"remove": {
+					"component_groups": [
+						"minecraft:slow"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:default"
+					]
+				},
+				"run_command": {
+					"command": [
+						"effect @e[r=4] slowness 5 2 false",
+						"playsound mob.slime.jump @a ~~~ 1 1 0"
+					]
+				}
+			},
+			"blind": {
+				"remove": {
+					"component_groups": [
+						"minecraft:blind"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:default"
+					]
+				},
+				"run_command": {
+					"command": [
+						"effect @e[r=4] blindness 3 0 false",
+						"playsound item.trident.thunder @a ~~~ 1 1 0"
+					]
+				}
+			},
+			"smoke": {
+				"remove": {
+					"component_groups": [
+						"minecraft:smoke"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:default"
+					]
+				},
+				"run_command": {
+					"command": [
+						"summon armor_stand ~~200~ name smoke",
+						"playsound random.fizz @a ~~~ 1 1 0"
+					]
+				}
+			}
+		}
+	}
+}

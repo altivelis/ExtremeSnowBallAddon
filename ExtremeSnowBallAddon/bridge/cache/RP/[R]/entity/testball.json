@@ -1,0 +1,287 @@
+{
+	"file_path": "C:\\Users\\altivelis\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\EditItemTest[R]\\entity\\testball.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "182d8c4b_9688_4d1f_b6fd_bf7e172957d8",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "altivelis:testball",
+							"materials": {
+								"default": "snowball"
+							},
+							"textures": {
+								"default": "textures/items/snowball"
+							},
+							"geometry": {
+								"default": "geometry.item_sprite"
+							},
+							"render_controllers": [
+								"controller.render.item_sprite"
+							],
+							"animations": {
+								"flying": "animation.actor.billboard"
+							},
+							"scripts": {
+								"animate": [
+									"flying"
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:testball",
+								"materials": {
+									"default": "snowball"
+								},
+								"textures": {
+									"default": "textures/items/snowball"
+								},
+								"geometry": {
+									"default": "geometry.item_sprite"
+								},
+								"render_controllers": [
+									"controller.render.item_sprite"
+								],
+								"animations": {
+									"flying": "animation.actor.billboard"
+								},
+								"scripts": {
+									"animate": [
+										"flying"
+									]
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "altivelis:testball",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/snowball"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"data": "altivelis:testball",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "altivelis:testball",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/snowball"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "snowball"
+								}
+							},
+							{
+								"open": {
+									"identifier": "altivelis:testball",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/snowball"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/items/snowball"
+								}
+							},
+							{
+								"open": {
+									"identifier": "altivelis:testball",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/snowball"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.item_sprite"
+								}
+							},
+							{
+								"open": {
+									"identifier": "altivelis:testball",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/snowball"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.item_sprite"
+								]
+							},
+							{
+								"open": {
+									"identifier": "altivelis:testball",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/snowball"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"flying": "animation.actor.billboard"
+								}
+							},
+							{
+								"open": {
+									"identifier": "altivelis:testball",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/snowball"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"flying"
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

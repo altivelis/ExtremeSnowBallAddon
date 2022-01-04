@@ -1,0 +1,307 @@
+{
+	"file_path": "C:\\Users\\altivelis\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\EditItemTest\\items\\blindball.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "48f3798f_0f3e_4b3c_b86c_c82a74d094d8",
+	"file_version": 20,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "altivelis:blindball",
+							"category": "construction"
+						},
+						"components": {
+							"minecraft:display_name": {
+								"value": "§l§o§f閃光弾"
+							},
+							"minecraft:icon": {
+								"texture": "blindball"
+							},
+							"minecraft:max_stack_size": 4,
+							"minecraft:throwable": {
+								"do_swing_animation": true
+							},
+							"minecraft:projectile": {
+								"projectile_entity": "minecraft:snowball"
+							},
+							"minecraft:foil": true,
+							"minecraft:cooldown": {
+								"category": "blindball",
+								"duration": 1
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "altivelis:blindball",
+							"category": "construction"
+						},
+						"components": {
+							"minecraft:display_name": {
+								"value": "§l§o§f閃光弾"
+							},
+							"minecraft:icon": {
+								"texture": "blindball"
+							},
+							"minecraft:max_stack_size": 4,
+							"minecraft:throwable": {
+								"do_swing_animation": true
+							},
+							"minecraft:projectile": {
+								"projectile_entity": "minecraft:snowball"
+							},
+							"minecraft:foil": true,
+							"minecraft:cooldown": {
+								"category": "blindball",
+								"duration": 1
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:blindball",
+								"category": "construction"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "§l§o§f閃光弾"
+								},
+								"minecraft:icon": {
+									"texture": "blindball"
+								},
+								"minecraft:max_stack_size": 4,
+								"minecraft:throwable": {
+									"do_swing_animation": true
+								},
+								"minecraft:projectile": {
+									"projectile_entity": "minecraft:snowball"
+								},
+								"minecraft:foil": true,
+								"minecraft:cooldown": {
+									"category": "blindball",
+									"duration": 1
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "altivelis:blindball",
+							"category": "construction"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:blindball",
+								"category": "construction"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "§l§o§f閃光弾"
+								},
+								"minecraft:icon": {
+									"texture": "blindball"
+								},
+								"minecraft:max_stack_size": 4,
+								"minecraft:throwable": {
+									"do_swing_animation": true
+								},
+								"minecraft:projectile": {
+									"projectile_entity": "minecraft:snowball"
+								},
+								"minecraft:foil": true,
+								"minecraft:cooldown": {
+									"category": "blindball",
+									"duration": 1
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§f閃光弾"
+									},
+									"minecraft:icon": {
+										"texture": "blindball"
+									},
+									"minecraft:max_stack_size": 4,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "blindball",
+										"duration": 1
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "§l§o§f閃光弾"
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§f閃光弾"
+									},
+									"minecraft:icon": {
+										"texture": "blindball"
+									},
+									"minecraft:max_stack_size": 4,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "blindball",
+										"duration": 1
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "blindball"
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§f閃光弾"
+									},
+									"minecraft:icon": {
+										"texture": "blindball"
+									},
+									"minecraft:max_stack_size": 4,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "blindball",
+										"duration": 1
+									}
+								},
+								"data": "4",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§f閃光弾"
+									},
+									"minecraft:icon": {
+										"texture": "blindball"
+									},
+									"minecraft:max_stack_size": 4,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "blindball",
+										"duration": 1
+									}
+								},
+								"key": "minecraft:throwable",
+								"is_minified": true,
+								"children": {
+									"do_swing_animation": true
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§f閃光弾"
+									},
+									"minecraft:icon": {
+										"texture": "blindball"
+									},
+									"minecraft:max_stack_size": 4,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "blindball",
+										"duration": 1
+									}
+								},
+								"key": "minecraft:projectile",
+								"is_minified": true,
+								"children": {
+									"projectile_entity": "minecraft:snowball"
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:foil"
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§f閃光弾"
+									},
+									"minecraft:icon": {
+										"texture": "blindball"
+									},
+									"minecraft:max_stack_size": 4,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "blindball",
+										"duration": 1
+									}
+								},
+								"key": "minecraft:cooldown",
+								"is_minified": true,
+								"children": {
+									"category": "blindball",
+									"duration": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

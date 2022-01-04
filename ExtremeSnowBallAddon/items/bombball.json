@@ -1,0 +1,31 @@
+//bridge-file-version: #21
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "altivelis:bombball",
+			"category": "construction"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "§l§o§c炸裂弾"
+			},
+			"minecraft:icon": {
+				"texture": "bombball"
+			},
+			"minecraft:max_stack_size": 4,
+			"minecraft:throwable": {
+				"do_swing_animation": true
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "minecraft:snowball"
+			},
+			"minecraft:foil": true,
+			"minecraft:cooldown": {
+				"category": "bombball",
+				"duration": 1
+			}
+		},
+		"events": {}
+	}
+}

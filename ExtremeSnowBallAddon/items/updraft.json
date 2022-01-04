@@ -1,0 +1,52 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "altivelis:updraft",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:use_duration": 0.05,
+			"minecraft:foil": true,
+			"minecraft:display_name": {
+				"value": "§l§o§bアップドラフト"
+			},
+			"minecraft:icon": {
+				"texture": "feather"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:cooldown": {
+				"duration": 2,
+				"category": "a"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "use",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"use": {
+				"add_mob_effect": {
+					"effect": "levitation",
+					"target": "holder",
+					"duration": 1,
+					"amplifier": 10
+				},
+				"run_command": {
+					"command": [
+						"particle minecraft:knockback_roar_particle ~~~",
+						"playsound mob.enderdragon.flap @a ~~~ 1 1 0"
+					],
+					"target": "holder"
+				},
+				"swing": {},
+				"decrement_stack": {
+					"ignore_game_mode": false
+				}
+			}
+		}
+	}
+}

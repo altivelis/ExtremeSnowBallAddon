@@ -1,0 +1,307 @@
+{
+	"file_path": "C:\\Users\\altivelis\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\EditItemTest\\items\\s_fireball.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "7508cf7d_857f_433d_b646_c1c0ee6e9fe5",
+	"file_version": 19,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "altivelis:fireball",
+							"category": "construction"
+						},
+						"components": {
+							"minecraft:display_name": {
+								"value": "§l§o§6火炎弾"
+							},
+							"minecraft:icon": {
+								"texture": "s_fireball"
+							},
+							"minecraft:max_stack_size": 8,
+							"minecraft:throwable": {
+								"do_swing_animation": true
+							},
+							"minecraft:projectile": {
+								"projectile_entity": "minecraft:snowball"
+							},
+							"minecraft:foil": true,
+							"minecraft:cooldown": {
+								"category": "s_fireball",
+								"duration": 0.5
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "altivelis:fireball",
+							"category": "construction"
+						},
+						"components": {
+							"minecraft:display_name": {
+								"value": "§l§o§6火炎弾"
+							},
+							"minecraft:icon": {
+								"texture": "s_fireball"
+							},
+							"minecraft:max_stack_size": 8,
+							"minecraft:throwable": {
+								"do_swing_animation": true
+							},
+							"minecraft:projectile": {
+								"projectile_entity": "minecraft:snowball"
+							},
+							"minecraft:foil": true,
+							"minecraft:cooldown": {
+								"category": "s_fireball",
+								"duration": 0.5
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:fireball",
+								"category": "construction"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "§l§o§6火炎弾"
+								},
+								"minecraft:icon": {
+									"texture": "s_fireball"
+								},
+								"minecraft:max_stack_size": 8,
+								"minecraft:throwable": {
+									"do_swing_animation": true
+								},
+								"minecraft:projectile": {
+									"projectile_entity": "minecraft:snowball"
+								},
+								"minecraft:foil": true,
+								"minecraft:cooldown": {
+									"category": "s_fireball",
+									"duration": 0.5
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "altivelis:fireball",
+							"category": "construction"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:fireball",
+								"category": "construction"
+							},
+							"components": {
+								"minecraft:display_name": {
+									"value": "§l§o§6火炎弾"
+								},
+								"minecraft:icon": {
+									"texture": "s_fireball"
+								},
+								"minecraft:max_stack_size": 8,
+								"minecraft:throwable": {
+									"do_swing_animation": true
+								},
+								"minecraft:projectile": {
+									"projectile_entity": "minecraft:snowball"
+								},
+								"minecraft:foil": true,
+								"minecraft:cooldown": {
+									"category": "s_fireball",
+									"duration": 0.5
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§6火炎弾"
+									},
+									"minecraft:icon": {
+										"texture": "s_fireball"
+									},
+									"minecraft:max_stack_size": 8,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "s_fireball",
+										"duration": 0.5
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "§l§o§6火炎弾"
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§6火炎弾"
+									},
+									"minecraft:icon": {
+										"texture": "s_fireball"
+									},
+									"minecraft:max_stack_size": 8,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "s_fireball",
+										"duration": 0.5
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "s_fireball"
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§6火炎弾"
+									},
+									"minecraft:icon": {
+										"texture": "s_fireball"
+									},
+									"minecraft:max_stack_size": 8,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "s_fireball",
+										"duration": 0.5
+									}
+								},
+								"data": "8",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§6火炎弾"
+									},
+									"minecraft:icon": {
+										"texture": "s_fireball"
+									},
+									"minecraft:max_stack_size": 8,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "s_fireball",
+										"duration": 0.5
+									}
+								},
+								"key": "minecraft:throwable",
+								"is_minified": true,
+								"children": {
+									"do_swing_animation": true
+								}
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§6火炎弾"
+									},
+									"minecraft:icon": {
+										"texture": "s_fireball"
+									},
+									"minecraft:max_stack_size": 8,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "s_fireball",
+										"duration": 0.5
+									}
+								},
+								"key": "minecraft:projectile",
+								"is_minified": true,
+								"children": {
+									"projectile_entity": "minecraft:snowball"
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:foil"
+							},
+							{
+								"open": {
+									"minecraft:display_name": {
+										"value": "§l§o§6火炎弾"
+									},
+									"minecraft:icon": {
+										"texture": "s_fireball"
+									},
+									"minecraft:max_stack_size": 8,
+									"minecraft:throwable": {
+										"do_swing_animation": true
+									},
+									"minecraft:projectile": {
+										"projectile_entity": "minecraft:snowball"
+									},
+									"minecraft:foil": true,
+									"minecraft:cooldown": {
+										"category": "s_fireball",
+										"duration": 0.5
+									}
+								},
+								"key": "minecraft:cooldown",
+								"is_minified": true,
+								"children": {
+									"category": "s_fireball",
+									"duration": 0.5
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
