@@ -32,6 +32,24 @@
 			"families": [],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"item": {
@@ -118,6 +136,78 @@
 				"altivelis:timestopper"
 			],
 			"custom_commands": []
+		},
+		"BP/items/armor/white/glow_chestplate_white.json": {
+			"identifiers": [
+				"altivelis:glow_chestplate_white"
+			],
+			"custom_commands": []
+		},
+		"BP/items/armor/white/chestplate_white.json": {
+			"identifiers": [
+				"altivelis:chestplate_white"
+			],
+			"custom_commands": []
+		},
+		"BP/items/armor/white/helmet_white.json": {
+			"identifiers": [
+				"altivelis:helmet_white"
+			],
+			"custom_commands": []
+		},
+		"BP/items/armor/white/leggings_white.json": {
+			"identifiers": [
+				"minecraft:leggings_white"
+			],
+			"custom_commands": []
+		},
+		"BP/items/armor/chestplate_red.json": {
+			"identifiers": [
+				"altivelis:chestplate_green"
+			],
+			"custom_commands": []
+		},
+		"BP/items/armor/glow_chestplate_red.json": {
+			"identifiers": [
+				"altivelis:glow_chestplate_green"
+			],
+			"custom_commands": []
+		},
+		"BP/items/armor/chestplate_blue.json": {
+			"identifiers": [
+				"altivelis:chestplate_green"
+			],
+			"custom_commands": []
+		},
+		"BP/items/armor/glow_chestplate_blue.json": {
+			"identifiers": [
+				"altivelis:glow_chestplate_green"
+			],
+			"custom_commands": []
+		},
+		"BP/items/armor/glow_chestplate_yellow.json": {
+			"identifiers": [
+				"altivelis:glow_chestplate_green"
+			],
+			"custom_commands": []
+		},
+		"BP/items/armor/chestplate_yellow.json": {
+			"identifiers": [
+				"altivelis:chestplate_green"
+			],
+			"custom_commands": []
+		},
+		"BP/items/armor/chestplate_green.json": {
+			"identifiers": [
+				"altivelis:chestplate_green"
+			],
+			"custom_commands": []
+		},
+		"BP/items/armor/glow_chestplate_green.json": {
+			"identifiers": [
+				"altivelis:glow_chestplate_green"
+			],
+			"custom_commands": []
 		}
 	},
 	"client_entity": {
@@ -188,6 +278,252 @@
 		"RP/[R]/particles/smoke_blue_inner_5.json": {
 			"ids": [
 				"altivelis:smoke_blue_inner_5"
+			]
+		}
+	},
+	"render_controller": {
+		"RP/er_controllers/glow.render_controllers.json": {
+			"ids": [
+				"controller.render.glow"
+			]
+		},
+		"RP/er_controllers/alt_armor.render_controllers.json": {
+			"ids": [
+				"controller.render.alt_armor"
+			]
+		}
+	},
+	"attachable": {
+		"RP/chables/chestplate_white.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/chestplate_white.player.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/glow_chestplate_white.player.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/glow_chestplate_white.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/chestplate_red.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/chestplate_red.player.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/glow_chestplate_red.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/glow_chestplate_red.player.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/chestplate_blue.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/chestplate_blue.player.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/glow_chestplate_blue.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/glow_chestplate_blue.player.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/chestplate_yellow.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/chestplate_yellow.player.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/glow_chestplate_yellow.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/glow_chestplate_yellow.player.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/chestplate_green.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/chestplate_green.player.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/glow_chestplate_green.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/chables/glow_chestplate_green.player.json": {
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			]
+		}
+	},
+	"fog": {
+		"RP/test.json": {
+			"identifiers": [
+				"altivelis:test"
+			]
+		},
+		"RP/blind.json": {
+			"identifiers": [
+				"altivelis:blind"
 			]
 		}
 	}

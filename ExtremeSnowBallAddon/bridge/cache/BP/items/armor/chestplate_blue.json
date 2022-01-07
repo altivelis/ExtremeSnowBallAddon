@@ -1,0 +1,223 @@
+{
+	"file_path": "C:\\Users\\altivelis\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\ExtremeSnowBallAddon\\items\\armor\\chestplate_blue.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "569921be_dd1d_4641_94d9_c2c0aee41acf",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "altivelis:chestplate_blue",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:armor": {
+								"protection": 0
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.chest"
+							},
+							"minecraft:icon": {
+								"texture": "blue_armor",
+								"frame": 1
+							},
+							"minecraft:display_name": {
+								"value": "チェストプレート青"
+							}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:chestplate_blue",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:armor": {
+									"protection": 0
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.chest"
+								},
+								"minecraft:icon": {
+									"texture": "blue_armor",
+									"frame": 1
+								},
+								"minecraft:display_name": {
+									"value": "チェストプレート青"
+								}
+							},
+							"events": {}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "altivelis:chestplate_blue",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:chestplate_blue",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:armor": {
+									"protection": 0
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.chest"
+								},
+								"minecraft:icon": {
+									"texture": "blue_armor",
+									"frame": 1
+								},
+								"minecraft:display_name": {
+									"value": "チェストプレート青"
+								}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 0
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.chest"
+									},
+									"minecraft:icon": {
+										"texture": "blue_armor",
+										"frame": 1
+									},
+									"minecraft:display_name": {
+										"value": "チェストプレート青"
+									}
+								},
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 0
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.chest"
+									},
+									"minecraft:icon": {
+										"texture": "blue_armor",
+										"frame": 1
+									},
+									"minecraft:display_name": {
+										"value": "チェストプレート青"
+									}
+								},
+								"key": "minecraft:armor",
+								"is_minified": true,
+								"children": {
+									"protection": 0
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 0
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.chest"
+									},
+									"minecraft:icon": {
+										"texture": "blue_armor",
+										"frame": 1
+									},
+									"minecraft:display_name": {
+										"value": "チェストプレート青"
+									}
+								},
+								"key": "minecraft:wearable",
+								"is_minified": true,
+								"children": {
+									"slot": "slot.armor.chest"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 0
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.chest"
+									},
+									"minecraft:icon": {
+										"texture": "blue_armor",
+										"frame": 1
+									},
+									"minecraft:display_name": {
+										"value": "チェストプレート青"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "blue_armor",
+									"frame": 1
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 0
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.chest"
+									},
+									"minecraft:icon": {
+										"texture": "blue_armor",
+										"frame": 1
+									},
+									"minecraft:display_name": {
+										"value": "チェストプレート青"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "チェストプレート青"
+								}
+							}
+						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

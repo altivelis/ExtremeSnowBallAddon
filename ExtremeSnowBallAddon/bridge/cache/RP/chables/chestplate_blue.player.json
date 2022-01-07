@@ -1,0 +1,246 @@
+{
+	"file_path": "C:\\Users\\altivelis\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\EditItemTest[R]\\attachables\\chestplate_blue.player.json",
+	"file_type": "attachable",
+	"format_version": 1,
+	"file_uuid": "4f67c476_edd2_4819_83a8_d8ee683ad1b3",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:attachable": {
+						"description": {
+							"identifier": "altivelis:chestplate_blue.player",
+							"item": {
+								"altivelis:chestplate_blue": "query.owner_identifier == 'minecraft:player'"
+							},
+							"materials": {
+								"default": "armor"
+							},
+							"textures": {
+								"default": "textures/alt_models/armor_blue_1"
+							},
+							"geometry": {
+								"default": "geometry.player.armor.chestplate"
+							},
+							"scripts": {
+								"parent_setup": "variable.chest_layer_visible = 0.0;"
+							},
+							"render_controllers": [
+								"controller.render.alt_armor"
+							]
+						}
+					}
+				},
+				"key": "minecraft:attachable",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:chestplate_blue.player",
+								"item": {
+									"altivelis:chestplate_blue": "query.owner_identifier == 'minecraft:player'"
+								},
+								"materials": {
+									"default": "armor"
+								},
+								"textures": {
+									"default": "textures/alt_models/armor_blue_1"
+								},
+								"geometry": {
+									"default": "geometry.player.armor.chestplate"
+								},
+								"scripts": {
+									"parent_setup": "variable.chest_layer_visible = 0.0;"
+								},
+								"render_controllers": [
+									"controller.render.alt_armor"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "altivelis:chestplate_blue.player",
+									"item": {
+										"altivelis:chestplate_blue": "query.owner_identifier == 'minecraft:player'"
+									},
+									"materials": {
+										"default": "armor"
+									},
+									"textures": {
+										"default": "textures/alt_models/armor_blue_1"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chest_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.alt_armor"
+									]
+								},
+								"data": "altivelis:chestplate_blue.player",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "altivelis:chestplate_blue.player",
+									"item": {
+										"altivelis:chestplate_blue": "query.owner_identifier == 'minecraft:player'"
+									},
+									"materials": {
+										"default": "armor"
+									},
+									"textures": {
+										"default": "textures/alt_models/armor_blue_1"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chest_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.alt_armor"
+									]
+								},
+								"key": "item",
+								"is_minified": true,
+								"children": {
+									"altivelis:chestplate_blue": "query.owner_identifier == 'minecraft:player'"
+								}
+							},
+							{
+								"open": {
+									"identifier": "altivelis:chestplate_blue.player",
+									"item": {
+										"altivelis:chestplate_blue": "query.owner_identifier == 'minecraft:player'"
+									},
+									"materials": {
+										"default": "armor"
+									},
+									"textures": {
+										"default": "textures/alt_models/armor_blue_1"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chest_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.alt_armor"
+									]
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "armor"
+								}
+							},
+							{
+								"open": {
+									"identifier": "altivelis:chestplate_blue.player",
+									"item": {
+										"altivelis:chestplate_blue": "query.owner_identifier == 'minecraft:player'"
+									},
+									"materials": {
+										"default": "armor"
+									},
+									"textures": {
+										"default": "textures/alt_models/armor_blue_1"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chest_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.alt_armor"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/alt_models/armor_blue_1"
+								}
+							},
+							{
+								"open": {
+									"identifier": "altivelis:chestplate_blue.player",
+									"item": {
+										"altivelis:chestplate_blue": "query.owner_identifier == 'minecraft:player'"
+									},
+									"materials": {
+										"default": "armor"
+									},
+									"textures": {
+										"default": "textures/alt_models/armor_blue_1"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chest_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.alt_armor"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.player.armor.chestplate"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"parent_setup": "variable.chest_layer_visible = 0.0;"
+								}
+							},
+							{
+								"open": {
+									"identifier": "altivelis:chestplate_blue.player",
+									"item": {
+										"altivelis:chestplate_blue": "query.owner_identifier == 'minecraft:player'"
+									},
+									"materials": {
+										"default": "armor"
+									},
+									"textures": {
+										"default": "textures/alt_models/armor_blue_1"
+									},
+									"geometry": {
+										"default": "geometry.player.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chest_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.alt_armor"
+									]
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.alt_armor"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

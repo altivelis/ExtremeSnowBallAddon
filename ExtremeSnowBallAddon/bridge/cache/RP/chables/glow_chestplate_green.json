@@ -1,0 +1,215 @@
+{
+	"file_path": "C:\\Users\\altivelis\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\EditItemTest[R]\\attachables\\glow_chestplate_green.json",
+	"file_type": "attachable",
+	"format_version": 1,
+	"file_uuid": "7fa4d36a_53f7_49e7_a4e0_a4c68d7c3ea6",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:attachable": {
+						"description": {
+							"identifier": "altivelis:glow_chestplate_green",
+							"materials": {
+								"default": "glowing"
+							},
+							"textures": {
+								"default": "textures/alt_models/armor_green_1"
+							},
+							"geometry": {
+								"default": "geometry.humanoid.armor.chestplate"
+							},
+							"scripts": {
+								"parent_setup": "variable.chest_layer_visible = 0.0;"
+							},
+							"render_controllers": [
+								"controller.render.alt_armor"
+							]
+						}
+					}
+				},
+				"key": "minecraft:attachable",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:glow_chestplate_green",
+								"materials": {
+									"default": "glowing"
+								},
+								"textures": {
+									"default": "textures/alt_models/armor_green_1"
+								},
+								"geometry": {
+									"default": "geometry.humanoid.armor.chestplate"
+								},
+								"scripts": {
+									"parent_setup": "variable.chest_layer_visible = 0.0;"
+								},
+								"render_controllers": [
+									"controller.render.alt_armor"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "altivelis:glow_chestplate_green",
+									"materials": {
+										"default": "glowing"
+									},
+									"textures": {
+										"default": "textures/alt_models/armor_green_1"
+									},
+									"geometry": {
+										"default": "geometry.humanoid.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chest_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.alt_armor"
+									]
+								},
+								"data": "altivelis:glow_chestplate_green",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "altivelis:glow_chestplate_green",
+									"materials": {
+										"default": "glowing"
+									},
+									"textures": {
+										"default": "textures/alt_models/armor_green_1"
+									},
+									"geometry": {
+										"default": "geometry.humanoid.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chest_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.alt_armor"
+									]
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "glowing"
+								}
+							},
+							{
+								"open": {
+									"identifier": "altivelis:glow_chestplate_green",
+									"materials": {
+										"default": "glowing"
+									},
+									"textures": {
+										"default": "textures/alt_models/armor_green_1"
+									},
+									"geometry": {
+										"default": "geometry.humanoid.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chest_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.alt_armor"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/alt_models/armor_green_1"
+								}
+							},
+							{
+								"open": {
+									"identifier": "altivelis:glow_chestplate_green",
+									"materials": {
+										"default": "glowing"
+									},
+									"textures": {
+										"default": "textures/alt_models/armor_green_1"
+									},
+									"geometry": {
+										"default": "geometry.humanoid.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chest_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.alt_armor"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.humanoid.armor.chestplate"
+								}
+							},
+							{
+								"open": {
+									"identifier": "altivelis:glow_chestplate_green",
+									"materials": {
+										"default": "glowing"
+									},
+									"textures": {
+										"default": "textures/alt_models/armor_green_1"
+									},
+									"geometry": {
+										"default": "geometry.humanoid.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chest_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.alt_armor"
+									]
+								},
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"parent_setup": "variable.chest_layer_visible = 0.0;"
+								}
+							},
+							{
+								"open": {
+									"identifier": "altivelis:glow_chestplate_green",
+									"materials": {
+										"default": "glowing"
+									},
+									"textures": {
+										"default": "textures/alt_models/armor_green_1"
+									},
+									"geometry": {
+										"default": "geometry.humanoid.armor.chestplate"
+									},
+									"scripts": {
+										"parent_setup": "variable.chest_layer_visible = 0.0;"
+									},
+									"render_controllers": [
+										"controller.render.alt_armor"
+									]
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.alt_armor"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

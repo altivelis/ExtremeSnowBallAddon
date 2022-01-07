@@ -1,0 +1,240 @@
+{
+	"file_path": "C:\\Users\\altivelis\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\ExtremeSnowBallAddon\\items\\helmet_white.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "5e790fb5_0eb6_4f08_8d8a_ba2c79cae615",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "altivelis:helmet_white",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:armor": {
+								"protection": 2
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.head"
+							},
+							"minecraft:icon": {
+								"texture": "white_armor",
+								"frame": 0
+							},
+							"minecraft:display_name": {
+								"value": "ヘルメット白"
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "altivelis:helmet_white",
+							"category": "items"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:armor": {
+								"protection": 2
+							},
+							"minecraft:wearable": {
+								"slot": "slot.armor.head"
+							},
+							"minecraft:icon": {
+								"texture": "white_armor",
+								"frame": 0
+							},
+							"minecraft:display_name": {
+								"value": "ヘルメット白"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:helmet_white",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:armor": {
+									"protection": 2
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.head"
+								},
+								"minecraft:icon": {
+									"texture": "white_armor",
+									"frame": 0
+								},
+								"minecraft:display_name": {
+									"value": "ヘルメット白"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "altivelis:helmet_white",
+							"category": "items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:helmet_white",
+								"category": "items"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:armor": {
+									"protection": 2
+								},
+								"minecraft:wearable": {
+									"slot": "slot.armor.head"
+								},
+								"minecraft:icon": {
+									"texture": "white_armor",
+									"frame": 0
+								},
+								"minecraft:display_name": {
+									"value": "ヘルメット白"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 2
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.head"
+									},
+									"minecraft:icon": {
+										"texture": "white_armor",
+										"frame": 0
+									},
+									"minecraft:display_name": {
+										"value": "ヘルメット白"
+									}
+								},
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 2
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.head"
+									},
+									"minecraft:icon": {
+										"texture": "white_armor",
+										"frame": 0
+									},
+									"minecraft:display_name": {
+										"value": "ヘルメット白"
+									}
+								},
+								"key": "minecraft:armor",
+								"is_minified": true,
+								"children": {
+									"protection": 2
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 2
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.head"
+									},
+									"minecraft:icon": {
+										"texture": "white_armor",
+										"frame": 0
+									},
+									"minecraft:display_name": {
+										"value": "ヘルメット白"
+									}
+								},
+								"key": "minecraft:wearable",
+								"is_minified": true,
+								"children": {
+									"slot": "slot.armor.head"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 2
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.head"
+									},
+									"minecraft:icon": {
+										"texture": "white_armor",
+										"frame": 0
+									},
+									"minecraft:display_name": {
+										"value": "ヘルメット白"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "white_armor",
+									"frame": 0
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:armor": {
+										"protection": 2
+									},
+									"minecraft:wearable": {
+										"slot": "slot.armor.head"
+									},
+									"minecraft:icon": {
+										"texture": "white_armor",
+										"frame": 0
+									},
+									"minecraft:display_name": {
+										"value": "ヘルメット白"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "ヘルメット白"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

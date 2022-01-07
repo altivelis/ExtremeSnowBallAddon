@@ -1,0 +1,108 @@
+{
+	"file_path": "C:\\Users\\altivelis\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\EditItemTest[R]\\fogs\\blind.json",
+	"file_type": "fog",
+	"format_version": 1,
+	"file_uuid": "81b16ccd_f0d1_4218_9df6_87a492131416",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:fog_settings": {
+						"description": {
+							"identifier": "altivelis:blind"
+						},
+						"distance": {
+							"air": {
+								"render_distance_type": "fixed",
+								"fog_color": "#000000",
+								"fog_start": 3,
+								"fog_end": 3
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:fog_settings": {
+						"description": {
+							"identifier": "altivelis:blind"
+						},
+						"distance": {
+							"air": {
+								"render_distance_type": "fixed",
+								"fog_color": "#000000",
+								"fog_start": 3,
+								"fog_end": 3
+							}
+						}
+					}
+				},
+				"key": "minecraft:fog_settings",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:blind"
+							},
+							"distance": {
+								"air": {
+									"render_distance_type": "fixed",
+									"fog_color": "#000000",
+									"fog_start": 3,
+									"fog_end": 3
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "altivelis:blind"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "altivelis:blind"
+							},
+							"distance": {
+								"air": {
+									"render_distance_type": "fixed",
+									"fog_color": "#000000",
+									"fog_start": 3,
+									"fog_end": 3
+								}
+							}
+						},
+						"key": "distance",
+						"children": [
+							{
+								"open": {
+									"air": {
+										"render_distance_type": "fixed",
+										"fog_color": "#000000",
+										"fog_start": 3,
+										"fog_end": 3
+									}
+								},
+								"key": "air",
+								"is_minified": true,
+								"children": {
+									"render_distance_type": "fixed",
+									"fog_color": "#000000",
+									"fog_start": 3,
+									"fog_end": 3
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

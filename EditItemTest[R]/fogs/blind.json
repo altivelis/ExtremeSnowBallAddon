@@ -1,0 +1,17 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:fog_settings": {
+		"description": {
+			"identifier": "altivelis:blind"
+		},
+		"distance": {
+			"air": {
+				"render_distance_type": "fixed",
+				"fog_color": "#000000",
+				"fog_start": 3,
+				"fog_end": 3
+			}
+		}
+	}
+}

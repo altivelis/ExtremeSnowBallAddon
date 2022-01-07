@@ -140,6 +140,116 @@
 						}
 					}
 				}
+			},
+			"84fba708_ca12_49e3_9e64_9d7c9a2efe09": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"39f2c86b_a61e_405a_8cea_6402dad6f3e6": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5e790fb5_0eb6_4f08_8d8a_ba2c79cae615": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"699fd58a_2531_4302_93dc_b9ce9a66c376": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ff85ecca_beca_452b_8a4b_b16e03b2e556": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"569921be_dd1d_4641_94d9_c2c0aee41acf": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7bc0297c_3a44_4355_947c_88e26eebb435": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"ab16275e_72c3_4cff_a9d4_ca5604b15c1a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"0fe3e98e_eb0a_42d7_9eb5_5aed44511aca": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bee82b2d_249f_4365_bf44_3245b2782a72": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3a8207d9_9d1b_45a0_84d7_62bc3debf176": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -207,6 +317,123 @@
 		"data": {}
 	},
 	"BP/items/timestopper.json": {
+		"data": {}
+	},
+	"RP/er_controllers/glow.render_controllers.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"RP/ures/item_texture.json": {
+		"data": {}
+	},
+	"BP/items/armor/white/glow_chestplate_white.json": {
+		"data": {}
+	},
+	"BP/items/armor/white/chestplate_white.json": {
+		"data": {}
+	},
+	"BP/items/armor/white/boots_white.json": {
+		"data": {}
+	},
+	"BP/items/armor/white/helmet_white.json": {
+		"data": {}
+	},
+	"BP/items/armor/white/leggings_white.json": {
+		"data": {}
+	},
+	"RP/er_controllers/alt_armor.render_controllers.json": {
+		"data": {}
+	},
+	"RP/chables/chestplate_white.json": {
+		"data": {}
+	},
+	"RP/chables/chestplate_white.player.json": {
+		"data": {}
+	},
+	"RP/chables/glow_chestplate_white.player.json": {
+		"data": {}
+	},
+	"RP/chables/glow_chestplate_white.json": {
+		"data": {}
+	},
+	"BP/items/armor/chestplate_red.json": {
+		"data": {}
+	},
+	"BP/items/armor/glow_chestplate_red.json": {
+		"data": {}
+	},
+	"BP/items/armor/chestplate_blue.json": {
+		"data": {}
+	},
+	"BP/items/armor/glow_chestplate_blue.json": {
+		"data": {}
+	},
+	"BP/items/armor/glow_chestplate_yellow.json": {
+		"data": {}
+	},
+	"BP/items/armor/chestplate_yellow.json": {
+		"data": {}
+	},
+	"BP/items/armor/chestplate_green.json": {
+		"data": {}
+	},
+	"BP/items/armor/glow_chestplate_green.json": {
+		"data": {}
+	},
+	"RP/chables/chestplate_red.json": {
+		"data": {}
+	},
+	"RP/chables/chestplate_red.player.json": {
+		"data": {}
+	},
+	"RP/chables/glow_chestplate_red.json": {
+		"data": {}
+	},
+	"RP/chables/glow_chestplate_red.player.json": {
+		"data": {}
+	},
+	"RP/chables/chestplate_blue.json": {
+		"data": {}
+	},
+	"RP/chables/chestplate_blue.player.json": {
+		"data": {}
+	},
+	"RP/chables/glow_chestplate_blue.json": {
+		"data": {}
+	},
+	"RP/chables/glow_chestplate_blue.player.json": {
+		"data": {}
+	},
+	"RP/chables/chestplate_yellow.json": {
+		"data": {}
+	},
+	"RP/chables/chestplate_yellow.player.json": {
+		"data": {}
+	},
+	"RP/chables/glow_chestplate_yellow.json": {
+		"data": {}
+	},
+	"RP/chables/glow_chestplate_yellow.player.json": {
+		"data": {}
+	},
+	"RP/chables/chestplate_green.json": {
+		"data": {}
+	},
+	"RP/chables/chestplate_green.player.json": {
+		"data": {}
+	},
+	"RP/chables/glow_chestplate_green.json": {
+		"data": {}
+	},
+	"RP/chables/glow_chestplate_green.player.json": {
+		"data": {}
+	},
+	"RP/test.json": {
+		"data": {}
+	},
+	"RP/blind.json": {
 		"data": {}
 	}
 }

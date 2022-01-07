@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\altivelis\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\EditItemTest[R]\\materials\\entity.material",
+	"file_type": "unknown",
+	"format_version": 0,
+	"file_uuid": "2bfff6b4_01f6_494a_953f_c12524e09969",
+	"file_version": 12,
+	"cache_content": "{\r\n    \"materials\": {\r\n        \"version\": \"1.0.0\",\r\n        \"glowing:charged_creeper\": \r\n        {\r\n            \"depthFunc\": \"Always\"\r\n        },\r\n        \"entity_test:entity_nocull\": {\r\n      \"+samplerStates\": [\r\n        {\r\n          \"samplerIndex\": 1,\r\n          \"textureWrap\": \"Repeat\"\r\n        }\r\n      ],\r\n      \"msaaSupport\": \"Both\",\r\n      \"depthFunc\": \"GreaterEqual\"\r\n\r\n    }\r\n    }\r\n}"
+}

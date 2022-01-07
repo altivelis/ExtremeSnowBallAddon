@@ -1,0 +1,949 @@
+{
+	"file_path": "C:\\Users\\altivelis\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\EditItemTest[R]\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "2393d0d2_c715_4cb2_9502_f808467f28ea",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"bigshot": {
+							"textures": [
+								"textures/alt_snowball/bigshot"
+							]
+						},
+						"fastshot": {
+							"textures": [
+								"textures/alt_snowball/ghast_tear"
+							]
+						},
+						"s_fireball": {
+							"textures": [
+								"textures/alt_snowball/fireball"
+							]
+						},
+						"lightningball": {
+							"textures": [
+								"textures/alt_snowball/nether_star"
+							]
+						},
+						"bombball": {
+							"textures": [
+								"textures/alt_snowball/magma_cream"
+							]
+						},
+						"blindball": {
+							"textures": [
+								"textures/alt_snowball/ender_eye"
+							]
+						},
+						"slownessball": {
+							"textures": [
+								"textures/alt_snowball/slimeball"
+							]
+						},
+						"levitationball": {
+							"textures": [
+								"textures/alt_snowball/heartofthesea_closed"
+							]
+						},
+						"damageball": {
+							"textures": [
+								"textures/alt_snowball/dragon_fireball"
+							]
+						},
+						"invisibleball": {
+							"textures": [
+								"textures/alt_snowball/ender_pearl"
+							]
+						},
+						"snowball": {
+							"textures": [
+								"textures/alt_snowball/snowball"
+							]
+						},
+						"smoke": {
+							"textures": [
+								"textures/alt_snowball/smoke"
+							]
+						},
+						"oneshot": {
+							"textures": [
+								"textures/alt_snowball/oneshot"
+							]
+						},
+						"multi3": {
+							"textures": [
+								"textures/alt_snowball/multishot3"
+							]
+						},
+						"white_armor": {
+							"textures": [
+								"textures/alt_color_armor/white/helmet",
+								"textures/alt_color_armor/white/chestplate",
+								"textures/alt_color_armor/white/leggings",
+								"textures/alt_color_armor/white/boots"
+							]
+						},
+						"red_armor": {
+							"textures": [
+								"textures/alt_color_armor/red/helmet",
+								"textures/alt_color_armor/red/chestplate",
+								"textures/alt_color_armor/red/leggings",
+								"textures/alt_color_armor/red/boots"
+							]
+						},
+						"blue_armor": {
+							"textures": [
+								"textures/alt_color_armor/blue/helmet",
+								"textures/alt_color_armor/blue/chestplate",
+								"textures/alt_color_armor/blue/leggings",
+								"textures/alt_color_armor/blue/boots"
+							]
+						},
+						"yellow_armor": {
+							"textures": [
+								"textures/alt_color_armor/yellow/helmet",
+								"textures/alt_color_armor/yellow/chestplate",
+								"textures/alt_color_armor/yellow/leggings",
+								"textures/alt_color_armor/yellow/boots"
+							]
+						},
+						"green_armor": {
+							"textures": [
+								"textures/alt_color_armor/green/helmet",
+								"textures/alt_color_armor/green/chestplate",
+								"textures/alt_color_armor/green/leggings",
+								"textures/alt_color_armor/green/boots"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "bigshot",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/alt_snowball/bigshot"
+							]
+						}
+					},
+					{
+						"key": "fastshot",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/alt_snowball/ghast_tear"
+							]
+						}
+					},
+					{
+						"key": "s_fireball",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/alt_snowball/fireball"
+							]
+						}
+					},
+					{
+						"key": "lightningball",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/alt_snowball/nether_star"
+							]
+						}
+					},
+					{
+						"key": "bombball",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/alt_snowball/magma_cream"
+							]
+						}
+					},
+					{
+						"key": "blindball",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/alt_snowball/ender_eye"
+							]
+						}
+					},
+					{
+						"key": "slownessball",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/alt_snowball/slimeball"
+							]
+						}
+					},
+					{
+						"key": "levitationball",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/alt_snowball/heartofthesea_closed"
+							]
+						}
+					},
+					{
+						"key": "damageball",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/alt_snowball/dragon_fireball"
+							]
+						}
+					},
+					{
+						"key": "invisibleball",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/alt_snowball/ender_pearl"
+							]
+						}
+					},
+					{
+						"key": "snowball",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/alt_snowball/snowball"
+							]
+						}
+					},
+					{
+						"key": "smoke",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/alt_snowball/smoke"
+							]
+						}
+					},
+					{
+						"key": "oneshot",
+						"is_minified": true,
+						"children": {
+							"textures": [
+								"textures/alt_snowball/oneshot"
+							]
+						}
+					},
+					{
+						"key": "multi3",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_snowball/multishot3"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_snowball/multishot3"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							},
+							"white_armor": {
+								"textures": [
+									"textures/alt_color_armor/white/helmet",
+									"textures/alt_color_armor/white/chestplate",
+									"textures/alt_color_armor/white/leggings",
+									"textures/alt_color_armor/white/boots"
+								]
+							},
+							"red_armor": {
+								"textures": [
+									"textures/alt_color_armor/red/helmet",
+									"textures/alt_color_armor/red/chestplate",
+									"textures/alt_color_armor/red/leggings",
+									"textures/alt_color_armor/red/boots"
+								]
+							},
+							"blue_armor": {
+								"textures": [
+									"textures/alt_color_armor/blue/helmet",
+									"textures/alt_color_armor/blue/chestplate",
+									"textures/alt_color_armor/blue/leggings",
+									"textures/alt_color_armor/blue/boots"
+								]
+							},
+							"yellow_armor": {
+								"textures": [
+									"textures/alt_color_armor/yellow/helmet",
+									"textures/alt_color_armor/yellow/chestplate",
+									"textures/alt_color_armor/yellow/leggings",
+									"textures/alt_color_armor/yellow/boots"
+								]
+							},
+							"green_armor": {
+								"textures": [
+									"textures/alt_color_armor/green/helmet",
+									"textures/alt_color_armor/green/chestplate",
+									"textures/alt_color_armor/green/leggings",
+									"textures/alt_color_armor/green/boots"
+								]
+							}
+						},
+						"key": "white_armor",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_color_armor/white/helmet",
+										"textures/alt_color_armor/white/chestplate",
+										"textures/alt_color_armor/white/leggings",
+										"textures/alt_color_armor/white/boots"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_color_armor/white/helmet",
+									"textures/alt_color_armor/white/chestplate",
+									"textures/alt_color_armor/white/leggings",
+									"textures/alt_color_armor/white/boots"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							},
+							"white_armor": {
+								"textures": [
+									"textures/alt_color_armor/white/helmet",
+									"textures/alt_color_armor/white/chestplate",
+									"textures/alt_color_armor/white/leggings",
+									"textures/alt_color_armor/white/boots"
+								]
+							},
+							"red_armor": {
+								"textures": [
+									"textures/alt_color_armor/red/helmet",
+									"textures/alt_color_armor/red/chestplate",
+									"textures/alt_color_armor/red/leggings",
+									"textures/alt_color_armor/red/boots"
+								]
+							},
+							"blue_armor": {
+								"textures": [
+									"textures/alt_color_armor/blue/helmet",
+									"textures/alt_color_armor/blue/chestplate",
+									"textures/alt_color_armor/blue/leggings",
+									"textures/alt_color_armor/blue/boots"
+								]
+							},
+							"yellow_armor": {
+								"textures": [
+									"textures/alt_color_armor/yellow/helmet",
+									"textures/alt_color_armor/yellow/chestplate",
+									"textures/alt_color_armor/yellow/leggings",
+									"textures/alt_color_armor/yellow/boots"
+								]
+							},
+							"green_armor": {
+								"textures": [
+									"textures/alt_color_armor/green/helmet",
+									"textures/alt_color_armor/green/chestplate",
+									"textures/alt_color_armor/green/leggings",
+									"textures/alt_color_armor/green/boots"
+								]
+							}
+						},
+						"key": "red_armor",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_color_armor/red/helmet",
+										"textures/alt_color_armor/red/chestplate",
+										"textures/alt_color_armor/red/leggings",
+										"textures/alt_color_armor/red/boots"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_color_armor/red/helmet",
+									"textures/alt_color_armor/red/chestplate",
+									"textures/alt_color_armor/red/leggings",
+									"textures/alt_color_armor/red/boots"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							},
+							"white_armor": {
+								"textures": [
+									"textures/alt_color_armor/white/helmet",
+									"textures/alt_color_armor/white/chestplate",
+									"textures/alt_color_armor/white/leggings",
+									"textures/alt_color_armor/white/boots"
+								]
+							},
+							"red_armor": {
+								"textures": [
+									"textures/alt_color_armor/red/helmet",
+									"textures/alt_color_armor/red/chestplate",
+									"textures/alt_color_armor/red/leggings",
+									"textures/alt_color_armor/red/boots"
+								]
+							},
+							"blue_armor": {
+								"textures": [
+									"textures/alt_color_armor/blue/helmet",
+									"textures/alt_color_armor/blue/chestplate",
+									"textures/alt_color_armor/blue/leggings",
+									"textures/alt_color_armor/blue/boots"
+								]
+							},
+							"yellow_armor": {
+								"textures": [
+									"textures/alt_color_armor/yellow/helmet",
+									"textures/alt_color_armor/yellow/chestplate",
+									"textures/alt_color_armor/yellow/leggings",
+									"textures/alt_color_armor/yellow/boots"
+								]
+							},
+							"green_armor": {
+								"textures": [
+									"textures/alt_color_armor/green/helmet",
+									"textures/alt_color_armor/green/chestplate",
+									"textures/alt_color_armor/green/leggings",
+									"textures/alt_color_armor/green/boots"
+								]
+							}
+						},
+						"key": "blue_armor",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_color_armor/blue/helmet",
+										"textures/alt_color_armor/blue/chestplate",
+										"textures/alt_color_armor/blue/leggings",
+										"textures/alt_color_armor/blue/boots"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_color_armor/blue/helmet",
+									"textures/alt_color_armor/blue/chestplate",
+									"textures/alt_color_armor/blue/leggings",
+									"textures/alt_color_armor/blue/boots"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							},
+							"white_armor": {
+								"textures": [
+									"textures/alt_color_armor/white/helmet",
+									"textures/alt_color_armor/white/chestplate",
+									"textures/alt_color_armor/white/leggings",
+									"textures/alt_color_armor/white/boots"
+								]
+							},
+							"red_armor": {
+								"textures": [
+									"textures/alt_color_armor/red/helmet",
+									"textures/alt_color_armor/red/chestplate",
+									"textures/alt_color_armor/red/leggings",
+									"textures/alt_color_armor/red/boots"
+								]
+							},
+							"blue_armor": {
+								"textures": [
+									"textures/alt_color_armor/blue/helmet",
+									"textures/alt_color_armor/blue/chestplate",
+									"textures/alt_color_armor/blue/leggings",
+									"textures/alt_color_armor/blue/boots"
+								]
+							},
+							"yellow_armor": {
+								"textures": [
+									"textures/alt_color_armor/yellow/helmet",
+									"textures/alt_color_armor/yellow/chestplate",
+									"textures/alt_color_armor/yellow/leggings",
+									"textures/alt_color_armor/yellow/boots"
+								]
+							},
+							"green_armor": {
+								"textures": [
+									"textures/alt_color_armor/green/helmet",
+									"textures/alt_color_armor/green/chestplate",
+									"textures/alt_color_armor/green/leggings",
+									"textures/alt_color_armor/green/boots"
+								]
+							}
+						},
+						"key": "yellow_armor",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_color_armor/yellow/helmet",
+										"textures/alt_color_armor/yellow/chestplate",
+										"textures/alt_color_armor/yellow/leggings",
+										"textures/alt_color_armor/yellow/boots"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_color_armor/yellow/helmet",
+									"textures/alt_color_armor/yellow/chestplate",
+									"textures/alt_color_armor/yellow/leggings",
+									"textures/alt_color_armor/yellow/boots"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"bigshot": {
+								"textures": [
+									"textures/alt_snowball/bigshot"
+								]
+							},
+							"fastshot": {
+								"textures": [
+									"textures/alt_snowball/ghast_tear"
+								]
+							},
+							"s_fireball": {
+								"textures": [
+									"textures/alt_snowball/fireball"
+								]
+							},
+							"lightningball": {
+								"textures": [
+									"textures/alt_snowball/nether_star"
+								]
+							},
+							"bombball": {
+								"textures": [
+									"textures/alt_snowball/magma_cream"
+								]
+							},
+							"blindball": {
+								"textures": [
+									"textures/alt_snowball/ender_eye"
+								]
+							},
+							"slownessball": {
+								"textures": [
+									"textures/alt_snowball/slimeball"
+								]
+							},
+							"levitationball": {
+								"textures": [
+									"textures/alt_snowball/heartofthesea_closed"
+								]
+							},
+							"damageball": {
+								"textures": [
+									"textures/alt_snowball/dragon_fireball"
+								]
+							},
+							"invisibleball": {
+								"textures": [
+									"textures/alt_snowball/ender_pearl"
+								]
+							},
+							"snowball": {
+								"textures": [
+									"textures/alt_snowball/snowball"
+								]
+							},
+							"smoke": {
+								"textures": [
+									"textures/alt_snowball/smoke"
+								]
+							},
+							"oneshot": {
+								"textures": [
+									"textures/alt_snowball/oneshot"
+								]
+							},
+							"multi3": {
+								"textures": [
+									"textures/alt_snowball/multishot3"
+								]
+							},
+							"white_armor": {
+								"textures": [
+									"textures/alt_color_armor/white/helmet",
+									"textures/alt_color_armor/white/chestplate",
+									"textures/alt_color_armor/white/leggings",
+									"textures/alt_color_armor/white/boots"
+								]
+							},
+							"red_armor": {
+								"textures": [
+									"textures/alt_color_armor/red/helmet",
+									"textures/alt_color_armor/red/chestplate",
+									"textures/alt_color_armor/red/leggings",
+									"textures/alt_color_armor/red/boots"
+								]
+							},
+							"blue_armor": {
+								"textures": [
+									"textures/alt_color_armor/blue/helmet",
+									"textures/alt_color_armor/blue/chestplate",
+									"textures/alt_color_armor/blue/leggings",
+									"textures/alt_color_armor/blue/boots"
+								]
+							},
+							"yellow_armor": {
+								"textures": [
+									"textures/alt_color_armor/yellow/helmet",
+									"textures/alt_color_armor/yellow/chestplate",
+									"textures/alt_color_armor/yellow/leggings",
+									"textures/alt_color_armor/yellow/boots"
+								]
+							},
+							"green_armor": {
+								"textures": [
+									"textures/alt_color_armor/green/helmet",
+									"textures/alt_color_armor/green/chestplate",
+									"textures/alt_color_armor/green/leggings",
+									"textures/alt_color_armor/green/boots"
+								]
+							}
+						},
+						"key": "green_armor",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/alt_color_armor/green/helmet",
+										"textures/alt_color_armor/green/chestplate",
+										"textures/alt_color_armor/green/leggings",
+										"textures/alt_color_armor/green/boots"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/alt_color_armor/green/helmet",
+									"textures/alt_color_armor/green/chestplate",
+									"textures/alt_color_armor/green/leggings",
+									"textures/alt_color_armor/green/boots"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

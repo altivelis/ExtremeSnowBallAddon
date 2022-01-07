@@ -1,4 +1,4 @@
-//bridge-file-version: #6
+//bridge-file-version: #8
 {
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.items",
@@ -71,6 +71,46 @@
 		"multi3": {
 			"textures": [
 				"textures/alt_snowball/multishot3"
+			]
+		},
+		"white_armor": {
+			"textures": [
+				"textures/alt_color_armor/white/helmet",
+				"textures/alt_color_armor/white/chestplate",
+				"textures/alt_color_armor/white/leggings",
+				"textures/alt_color_armor/white/boots"
+			]
+		},
+		"red_armor": {
+			"textures": [
+				"textures/alt_color_armor/red/helmet",
+				"textures/alt_color_armor/red/chestplate",
+				"textures/alt_color_armor/red/leggings",
+				"textures/alt_color_armor/red/boots"
+			]
+		},
+		"blue_armor": {
+			"textures": [
+				"textures/alt_color_armor/blue/helmet",
+				"textures/alt_color_armor/blue/chestplate",
+				"textures/alt_color_armor/blue/leggings",
+				"textures/alt_color_armor/blue/boots"
+			]
+		},
+		"yellow_armor": {
+			"textures": [
+				"textures/alt_color_armor/yellow/helmet",
+				"textures/alt_color_armor/yellow/chestplate",
+				"textures/alt_color_armor/yellow/leggings",
+				"textures/alt_color_armor/yellow/boots"
+			]
+		},
+		"green_armor": {
+			"textures": [
+				"textures/alt_color_armor/green/helmet",
+				"textures/alt_color_armor/green/chestplate",
+				"textures/alt_color_armor/green/leggings",
+				"textures/alt_color_armor/green/boots"
 			]
 		}
 	}
